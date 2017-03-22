@@ -2,6 +2,14 @@ from sklearn import datasets
 from sklearn import linear_model
 import matplotlib.pyplot as plt
 
+def plot_agreement(y,z):
+    plt.scatter(y,z, color='blue')
+    plt.plot([y.min(), y.max()], [y.min(), y.max()], color='black')
+    plt.xlabel('Actual')
+    plt.ylabel('Model')
+    plt.show()
+    
+
 # load some sample data
 boston = datasets.load_boston()
 X = boston.data
@@ -13,19 +21,10 @@ model.fit(X,y)
 z = model.predict(X)
 
 # plot 
-plt.scatter(y,z, color='blue')
-plt.plot([y.min(), y.max()], [y.min(), y.max()], color='black')
-plt.xlabel('Actual')
-plt.ylabel('Model')
-plt.show()
+plot_agreement(y,z)
 
 # train on half of the data, test on the other half
 n = len(X) // 2
 model.fit(X[:n], y[:n])
 z = model.predict(X[n:])
-
-plt.scatter(y[n:],z, color='blue')
-plt.plot([y.min(), y.max()], [y.min(), y.max()], color='black')
-plt.xlabel('Actual')
-plt.ylabel('Model')
-plt.show()
+plot_agreement(y[n:], z)
