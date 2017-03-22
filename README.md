@@ -1,2 +1,9 @@
 # sklearn-notes
-Personal notes on using sklearn
+These are my personal notes and some simple demo programs on using sklearn.
+
+## Demo Programs
+
+### sklearn1.py
+
+2-D linear regression. 
+
