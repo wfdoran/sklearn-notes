@@ -1,5 +1,5 @@
 # sklearn-notes
-These are my personal notes and some simple demo programs on using sklearn.
+These are my personal notes and some simple demo programs on using [sklearn](http://scikit-learn.org/stable/).
 
 ## Demo Programs
 
