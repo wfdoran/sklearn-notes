@@ -9,4 +9,8 @@ These are my personal notes and some simple demo programs on using sklearn.
 
 ### sklearn2.py
 
-principle component analysis
+principal component analysis
+
+### sklearn3.py
+
+Training a Support Vector Machine. 
