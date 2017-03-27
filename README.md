@@ -17,4 +17,4 @@ Training a [Support Vector Machine](http://scikit-learn.org/stable/modules/svm.h
 
 ### sklearn4.py
 
-Simple KMeans clustering example.
+Simple [KMeans](http://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html) clustering example.

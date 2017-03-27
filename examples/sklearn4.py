@@ -25,7 +25,8 @@ for i in range(len(y)):
             if z[i] != z[j]:
                 count3 += 1
 
-print "%4d %4d %8.4f" % (count0, count1, float(count1) / count0) 
-print "%4d %4d %8.4f" % (count2, count3, float(count3) / count2) 
-
-print cluster.cluster_centers_
+print ("Should be same cluster:  %4d of %4d (%8.4f)" % (count1, count0, float(count1) / count0)) 
+print ("Should be different:     %4d of %4d (%8.4f)" % (count3, count2, float(count3) / count2))
+print()
+print ("cluster centers:")
+print (cluster.cluster_centers_)
