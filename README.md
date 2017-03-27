@@ -14,3 +14,7 @@ These are my personal notes and some simple demo programs on using [sklearn](htt
 ### sklearn3.py
 
 Training a [Support Vector Machine](http://scikit-learn.org/stable/modules/svm.html). 
+
+### sklearn4.py
+
+Simple KMeans clustering example.
