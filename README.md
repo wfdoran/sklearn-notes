@@ -22,3 +22,7 @@ Simple [KMeans](http://scikit-learn.org/stable/modules/generated/sklearn.cluster
 ### sklearn5.py
 
 Example of [Logistic Regression](http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html) and [Polynomial Features](http://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.PolynomialFeatures.html)
+
+### sklearn6.py
+
+Example of using [Lasso](http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Lasso.html) to find a sparse representation of data.
