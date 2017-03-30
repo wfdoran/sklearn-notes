@@ -26,3 +26,8 @@ Example of [Logistic Regression](http://scikit-learn.org/stable/modules/generate
 ### sklearn6.py
 
 Example of using [Lasso](http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Lasso.html) to find a sparse representation of data.
+
+### sklearn7.py
+
+Example of using [Scale](http://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.scale.html) to normalize the data
+allowing Logistic Regression to do a better job.
