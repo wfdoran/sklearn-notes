@@ -31,3 +31,7 @@ Example of using [Lasso](http://scikit-learn.org/stable/modules/generated/sklear
 
 Example of using [Scale](http://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.scale.html) to normalize the data
 allowing Logistic Regression to do a better job.
+
+### [sklearn8.py](examples/sklearn8.py)
+
+Example of using [Random Forest](http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html). 
