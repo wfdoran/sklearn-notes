@@ -35,3 +35,10 @@ allowing Logistic Regression to do a better job.
 ### [sklearn8.py](examples/sklearn8.py)
 
 Example of using [Random Forest](http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html). 
+
+### [sklearn9.py](examples/sklearn9.py)
+
+Example of using [GridSearchCV](http://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html). 
+This is a revision of sklearn3.py which learns the best values for `gamma` and `C`.  
+
+Note: The first parameter to GridSearchCV is the estimator.  It is important to include the `()` at the end. 
